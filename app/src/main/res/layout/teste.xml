@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--Você pode customizar o layout que será utilizado para o Adaptador, mas para isso você precisa que
+incluir o import da biblioteca do android direto no textview (primeira linha)-->
+    <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/txtTeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_purple" />
